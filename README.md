@@ -1,4 +1,4 @@
-# Byte Inbox
+# Byte_task — Byte Inbox
 
 A local, single-device inbox built with React Native, Expo, and TypeScript. Save notes, links, and images; search, filter by tag, edit, archive, restore, and permanently delete them. No account or backend is required.
 
@@ -49,3 +49,4 @@ Device acceptance checklist:
 ## Dependency audit
 
 The initial npm audit reports eight findings (three high, five low) inherited through Expo's tooling, including Zod 3 and deepmerge. npm's proposed automatic fix downgrades Expo to SDK 51; that incompatible downgrade was not applied. Review upstream Expo updates before preparing a release. These findings remain unresolved.
+
