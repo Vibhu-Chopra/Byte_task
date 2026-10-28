@@ -1,11 +1,25 @@
 {
   "expo": {
-    "name": "Byte-app-dev",
-    "slug": "Byte-app-dev",
+    "name": "Byte Inbox",
+    "slug": "byte-inbox",
+    "scheme": "byte-inbox",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
+    "platforms": ["ios", "android"],
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Choose images to save in your private inbox.",
+          "cameraPermission": false,
+          "microphonePermission": false
+        }
+      ]
+    ],
     "ios": {
       "supportsTablet": true
     },
